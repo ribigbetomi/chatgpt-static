@@ -2,7 +2,7 @@ import { PaperAirplaneIcon } from "@heroicons/react/24/solid";
 
 function ChatInput() {
   return (
-    <div className="bg-gray-700/50 text-gray-400 rounded-lg text-sm">
+    <div className="bg-gray-700/50 w-[100%] text-gray-400 rounded-lg text-sm  bottom-0">
       <form className="p-5 space-x-5 flex">
         <input
           className="bg-transparent focus:outline-none flex-1 disabled:cursor-not-allowed disabled:text-gray-300 "

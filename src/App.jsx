@@ -50,13 +50,13 @@ const App = () => {
           <>
             <div
               className="bg-[#202123] h-screen
-          overflow-y-auto overflow-hidden z-1000 absolute left-0 top-0"
+          overflow-y-auto overflow-hidden z-50 absolute left-0 top-0 flex-1"
             >
               <SideBar id={id} />
             </div>
             <button
               onClick={() => setActiveMenu(false)}
-              className="absolute z-1000 top-2 left-36 bg-white items-center p-2 pt-0"
+              className="absolute z-50 top-2 left-40 bg-white items-center p-2 pt-0"
             >
               <ArrowLeftOutlined />
             </button>
