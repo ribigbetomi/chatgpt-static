@@ -29,9 +29,9 @@ const App = () => {
   }, [screenSize]);
   return (
     <>
-      <div className="sticky h-[9.5vh] bg-[#343541] border-b border-b-slate-600 md:hidden">
+      <div className="absolute top-0 h-[9.5vh] bg-[#343541] border-b border-b-slate-600 md:hidden w-full">
         <button
-          className="absolute md:hidden left-2 top-3 bg-white p-2 pt-0 items-center"
+          className="md:hidden m-2 bg-white p-[1vh] pt-0 items-center"
           onClick={() => setActiveMenu(true)}
         >
           <MenuOutlined />

@@ -7,7 +7,7 @@ function ChatScreen() {
   const { id } = useParams();
   console.log(id);
   return (
-    <div className="flex flex-1 flex-col h-[90.5vh] md:h-screen  bg-[#343541]">
+    <div className="flex flex-1 flex-col h-screen md:h-screen  bg-[#343541]">
       <Chat chatId={id} />
       <ChatInput chatId={id} />
     </div>

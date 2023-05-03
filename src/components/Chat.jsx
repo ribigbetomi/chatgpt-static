@@ -42,7 +42,7 @@ function Chat({ chatId }) {
   }, [JSON.stringify(chatss)]);
 
   return (
-    <div className="flex-1 h-screen overflow-y-auto overflow-x-hidden">
+    <div className=" mt-[9.5vh] flex-1 h-screen overflow-y-auto overflow-x-hidden">
       {messages.length === 0 && (
         <>
           <p className="mt-10 text-center text-white">

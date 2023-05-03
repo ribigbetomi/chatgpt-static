@@ -6,7 +6,7 @@ import {
 
 function HomePage() {
   return (
-    <div className="bg-[#343541] flex-1 flex flex-col items-center justify-center h-[90.5vh] px-2 text-white">
+    <div className="bg-[#343541] flex-1 flex flex-col items-center justify-center h-screen px-2 text-white overflow-hidden">
       <h1 className="text-5xl font-bold mb-20"> ChatGPT</h1>
 
       <div className="flex space-x-2 text-center ">
